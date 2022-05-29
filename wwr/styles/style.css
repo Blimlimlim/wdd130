@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap');
+
 
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 body {
     background-color: #2a9d8f;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #e9c46a;
+    font-family: "Permanent Marker", Impact, sans-serif;
+}
+#logo_link {
+    padding-top: 5px;
 }
 #content {
     max-width: 1600px;
@@ -22,6 +36,7 @@ nav a {
     text-align: center;
     color: #264653;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #f4a261;
@@ -29,6 +44,9 @@ nav a:hover {
 }
 .home-title {
     color: #e9c46a;
+    font-family: "Permanent Marker", Impact, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #264653;
@@ -37,6 +55,11 @@ h4 {
     background-color: #2a9d8f;
     color: #f4a261;
     text-decoration: none;
+    font-family: "Permanent Marker", Impact, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #264653;
@@ -54,21 +77,31 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #264653;
 }
 .msg {
     background-color: #264653;
+    line-height: 1.5em;
+    padding: 35;
 }
 .msg h2 {
     color: #f4a261;
+    font-family: "Permanent Marker", Impact, sans-serif;
 }
 .msg p {
     color: #2a9d8f;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #e9c46a;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: #264653;
@@ -83,3 +116,14 @@ footer a {
 footer a:hover {
     color: #2a9d8f;
 }
+.rivers-card, .camping-card, .rapids-card {
+    font-family: "Permanent Marker", Impact, sans-serif;
+    margin: 200px 0;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.card-img {
+    border: 10px solid black;
+}
+
