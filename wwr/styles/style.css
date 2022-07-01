@@ -178,7 +178,7 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
-.card-img {
+.card-img, .river-sections img {
     border: 10px solid black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #575a4f;
@@ -187,6 +187,31 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/* Styling for Page 2: Rivers */
+
+.river-sections {
+    background-color: #264653;
+    border-radius: 1%;
+}
+.river-sections h2 {
+    font-family: "Permanent Marker", Impact, sans-serif;
+    color: #f4a261;
+}
+.river-sections p {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #e9c46a;
+}
+#rivers-title {
+    font-family: "Permanent Marker", Impact, sans-serif;
+    color: black;
+}
+.river-sections img {
+    width: 1fr;
+    height: 500px;
+}
+
+
 
 
 @media screen and (max-width: 900px) {
